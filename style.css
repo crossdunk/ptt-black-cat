@@ -1,0 +1,112 @@
+body {
+	text-align: center;
+	font-family: '微軟正黑體';
+}
+
+a {
+	text-decoration: none;
+	color: #3333ff;
+}
+
+a:link, a:visited {
+	color: #3333ff;
+}
+
+a:hover, a:active {
+	color: #9999ff;
+}
+
+@media screen and (min-width: 800px) {
+   #characterList,#panel{
+   		width:800px;
+   }
+}
+@media screen and (max-width: 800px) {
+   #characterList,#panel{
+   		width:100%
+   }
+}
+.btn{
+	padding:5px 10px 5px 10px;
+	border-radius: 5px;
+	cursor: pointer;
+	background-color: white;
+	border-color: black;
+	margin-right: 5px;
+}
+.btn:hover{
+	border-radius: 0px;
+	background-color: black;
+	color:white;
+}
+#characterList span:hover{
+	opacity: 0.5;
+}
+#characterList {
+	margin: auto;
+	overflow-y: scroll;
+	text-align: left;
+	border: solid 2px #cccccc;
+}
+#panel{
+	text-align: center;
+	margin:auto;
+}
+#control{
+	text-align: center;
+}
+#controlIcon {
+	width: 45%;
+}
+
+#controlPot {
+	width: 35%;
+}
+
+#avail {
+	text-align: left;
+}
+
+.icon {
+	display: inline-block;
+	width: 60px;
+	height: 60px;
+	border: solid 6px #ffffff;
+	background-color: #ffffff;
+}
+
+.pot {
+	display: inline-block;
+	width: 26px;
+	height: 32px;
+	padding-top: 5px;
+	background-color: #ffffff;
+}
+
+.iconSel{
+	border-color: #00ff00;
+	background-color: #00ff00;
+	border-radius: 5px;
+}
+
+.clickable {
+	cursor: pointer;
+}
+
+.wrap1{
+	width: 100%; 
+	text-align: center;
+}
+.wrap2{
+	width: 200px; 
+	margin: auto; 
+	text-align: left;
+}
+.footer{
+	width: 100%;
+	text-align:left;
+	margin: auto;
+}
+.cc{
+	border-width:0;
+}
